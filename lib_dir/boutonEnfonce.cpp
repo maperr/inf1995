@@ -16,13 +16,14 @@
 ****************************************************************************/
 bool boutonEnfonce()
 {  
-  if ( PIND & 0x04 )
-  {
-    _delay_ms(10);
-    if ( PIND & 0x04 )
-    {
-      return true;
-    }
-  }
-  return false;
+	if ( PIND & 0x04 )
+	{
+		_delay_ms(10);
+		if ( PIND & 0x04 )
+		{
+			return true;
+		}
+	}
+	return false;
 }
+

@@ -152,7 +152,7 @@ void codeObstacleVide();
 void initialisation();
 
 int main()
-{		
+{
 	initialisation();
 	senseur_magnetique sensorMagnetic;
 	
